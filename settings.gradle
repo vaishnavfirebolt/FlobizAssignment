@@ -1,0 +1,2 @@
+rootProject.name = "Flobiz Assignment"
+include ':app'
