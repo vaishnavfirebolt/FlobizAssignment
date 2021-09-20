@@ -6,6 +6,7 @@ This is an Android app made in kotlin, it follows mvvm architecture.
 All the UI related files are in the activity folder, all the viewmodels are in viewmodel folders and repositories in the repository folder.
 
 The app fetches data from a fake api makde using https://mocki.io/fake-json-api it contains a string for title and another one for imageurl.
+This is the link for json response https://mocki.io/v1/890db937-1f45-496b-b1ac-ef43c259b8eb.
 
 Things that are handeled in this app
 1. a list of 25 items with a test and image in each of them.
