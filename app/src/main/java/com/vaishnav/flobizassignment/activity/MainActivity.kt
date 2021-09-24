@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setUpListener() {
         binding.cancelBtn.setOnClickListener {
-            binding.cancelBtn.visibility = View.GONE
-            binding.imageView.visibility = View.GONE
+            binding.cancelBtn.visibility = View.INVISIBLE
+            binding.imageView.visibility = View.INVISIBLE
             sharedPreferences.edit {
                 putBoolean(PREFS_KEY_IS_AD_CANCELLED, true)
             }
@@ -59,8 +59,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         if (isAdCancelled) {
-            binding.cancelBtn.visibility = View.GONE
-            binding.imageView.visibility = View.GONE
+            binding.cancelBtn.visibility = View.INVISIBLE
+            binding.imageView.visibility = View.INVISIBLE
         }
     }
     // handling network errors
